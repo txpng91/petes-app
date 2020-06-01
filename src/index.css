@@ -1,0 +1,152 @@
+body {
+  background-color: #00324F;
+  padding: 20px;
+  margin: 0;
+}
+.big-banner {
+    background-image: url(./images/Hollister.jpg);
+    margin: auto;
+}
+.col-one {
+      width: 240px;
+      height: 100px;
+      background-image: url(./images/seagul2.png);
+      background-color: #00324F;
+      background-repeat: no-repeat;
+      margin: auto;
+      text-align: center;
+}
+.col-two {
+    background-image: url(./images/Dude.jpg);
+    width: 450px;
+    height: 950px;
+    background-repeat: no-repeat;
+}
+h1, h2, h3, p, ul, li, a {
+  color: black;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+ul.header li {
+  display: inline;
+  list-style-type: none;
+  margin: 0;
+}
+ul.header {
+  background-color: #00324F;
+  padding: 0;
+}
+ul.header li a {
+  color: #FFF;
+  font-weight: bold;
+  text-decoration: none;
+  padding: 20px;
+  display: inline-block;
+}
+.content {
+  padding: 20px;
+}
+.content h2 {
+  padding: 0;
+  margin: 0;
+}
+.content h3 {
+  text-align: center;
+  top: 50%;
+}
+.content li {
+  margin-bottom: 10px;
+}
+.active {
+  background-color: #0099FF;
+}
+.card {
+  border-color: white;
+  width: 100px;
+  height: 275px;
+  background-color: white;
+  font-size: 15pt;
+  text-align: center;
+  font-weight: 200;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.container {
+  background-color: white;
+}
+.footer {
+  text-align: center;
+}
+.h4 {
+  color: #FFF;
+}
+
+.big-banner-top1 {
+  margin: auto;
+  background-image: url(./images/top1.jpg);
+  object-fit: fill; 
+}
+
+.big-banner-top2 {
+  margin: auto;
+  background-image: url(./images/top2.jpg);
+  object-fit: fill;
+}
+
+.big-banner-top3 {
+  margin: auto;
+  background-image: url(./images/top3.jpg);
+  object-fit: fill; 
+}
+
+.big-banner-top4 {
+  margin: auto;
+  background-image: url(./images/top4.jpg);
+  object-fit: cover; 
+}
+
+.big-banner-bottom1 {
+  margin: auto;
+  background-image: url(./images/bottom1.jpg);
+  object-fit: fill; 
+}
+
+.big-banner-bottom2 {
+  margin: auto;
+  background-image: url(./images/bottom2.jpg);
+  object-fit: fill;
+}
+
+.big-banner-bottom3 {
+  margin: auto;
+  background-image: url(./images/bottom3.jpg);
+  object-fit: fill; 
+}
+
+.big-banner-bottom4 {
+  margin: auto;
+  background-image: url(./images/bottom4.JPG);
+  object-fit: cover; 
+}
+
+.big-banner-coat1 {
+  margin: auto;
+  background-image: url(./images/coat1.jpg);
+  object-fit: fill; 
+}
+
+.big-banner-coat2 {
+  margin: auto;
+  background-image: url(./images/coat2.jpg);
+  object-fit: fill;
+}
+
+.big-banner-coat3 {
+  margin: auto;
+  background-image: url(./images/coat3.jpg);
+  object-fit: fill; 
+}
+
+.big-banner-coat4 {
+  margin: auto;
+  background-image: url(./images/coat4.jpg);
+  object-fit: cover; 
+}
