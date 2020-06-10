@@ -1,5 +1,5 @@
 body {
-  background-color: #00324F;
+  background-color: rgb(32, 31, 28);
   padding: 20px;
   margin: 0;
 }
@@ -7,11 +7,16 @@ body {
     background-image: url(./images/Hollister.jpg);
     margin: auto;
 }
+
+.btn-primary {
+  background-color: rgb(70, 70, 70);
+  border-color: rgb(70, 70, 70);
+}
 .col-one {
       width: 240px;
-      height: 100px;
+      height: 150px;
       background-image: url(./images/seagul2.png);
-      background-color: #00324F;
+      background-color: rgb(32, 31, 28);
       background-repeat: no-repeat;
       margin: auto;
       text-align: center;
@@ -22,8 +27,8 @@ body {
     height: 950px;
     background-repeat: no-repeat;
 }
-h1, h2, h3, p, ul, li, a {
-  color: black;
+h1, h2, h3, h4, p, ul, li, a {
+  color: azure;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
 }
 ul.header li {
@@ -32,7 +37,7 @@ ul.header li {
   margin: 0;
 }
 ul.header {
-  background-color: #00324F;
+  background-color: rgb(49, 48, 43);
   padding: 0;
 }
 ul.header li a {
@@ -57,26 +62,34 @@ ul.header li a {
   margin-bottom: 10px;
 }
 .active {
-  background-color: #0099FF;
+  background-color: rgb(70, 70, 70);
 }
 .card {
-  border-color: white;
+  border-color: rgb(32, 31, 28);
   width: 100px;
   height: 275px;
-  background-color: white;
+  background-color: rgb(32, 31, 28);
   font-size: 15pt;
   text-align: center;
   font-weight: 200;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
+
+.card-shop {
+  width: 100px;
+  height: 275px;
+  background-color: rgb(49, 48, 43);
+  font-size: 15pt;
+  text-align: center;
+  font-weight: 200;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
 .container {
-  background-color: white;
+  background-color: rgb(32, 31, 28);
 }
 .footer {
   text-align: center;
-}
-.h4 {
-  color: #FFF;
 }
 
 .big-banner-top1 {

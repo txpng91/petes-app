@@ -13,8 +13,8 @@ class Main extends Component {
     return (
         <HashRouter>
         <div>
+        <div class="col-one"></div>
           <ul className="header">
-            <div class="col-one"></div>
             <li><NavLink exact to="/">HOLLISTER</NavLink></li>
             <li><NavLink to="/AboutUs">ABOUT US</NavLink></li>
             <li><NavLink to="/Shop">SHOP</NavLink></li>
